@@ -1,0 +1,26 @@
+language: go
+
+go:
+    - "1.5.1"
+
+env:
+    global:
+        - SSH_KEY="id_rsa"
+        - GIT_NAME="bravokeyl"
+        - GIT_EMAIL="bravokeyl@gmail.com"
+        - SOURCE_DIR="public"
+        - DEPLOY_BRANCH="source"
+
+before_install:
+    - openssl aes-256-cbc -K $encrypted_4c0fbb0102e9_key -iv $encrypted_4c0fbb0102e9_iv -in travis_key.ppk.enc -out travis_key.ppk -d
+
+before_script:
+    - go get -u -v github.com/spf13/hugo
+
+script:
+    - git clone https://github.com/rcoedo/hugo-steam-theme ./themes/hugo-steam-theme
+    - hugo
+
+after_success:
+    - echo "bravokeyl.com" > ./public/CNAME
+    - ./scripts/deploy.sh
