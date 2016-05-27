@@ -1,1 +1,104 @@
-progress,sub,sup{vertical-align:baseline}button,hr,input{overflow:visible}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0} figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0} [hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{}button,select{text-transform:none}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+    overflow: -moz-scrollbars-vertical;    
+    height: 100%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #f8f8f8;
+    height: 100%;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection  {
+	color: #f1f3f6;
+	text-shadow:none;
+	background: #212121;
+}
+
+::selection {
+	color: #f1f3f6;
+	text-shadow:none;
+	background: #212121;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a,
+a > * {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #212121;
+    text-decoration: none;
+    outline: 0;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    outline: 0;
+}
+
+*:focus,
+*:after:focus,
+*:before:focus {
+    outline: 0;
+}
+
+*:after,
+*:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Let's start fun */
+.pithre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    background: tan;
+    background: url("../images/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+body:after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+}
+.c {
+    color: #fff;
+}
+.c h2 {
+    font-size: 6rem;
+    color: #fff;
+}
