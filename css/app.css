@@ -96,9 +96,17 @@ body:after {
     background: rgba(0,0,0,0.6);
 }
 .c {
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
 }
 .c h2 {
     font-size: 6rem;
-    color: #fff;
+    color: #000;
 }
