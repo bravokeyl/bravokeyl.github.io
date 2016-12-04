@@ -2,7 +2,7 @@
 title: Best WordPress SEO plugins Yoast vs All in one SEO
 date: 2016-03-24 01:00:48
 tags: seo
-thumbnail: /best-wordpress-seo-plugins-yoast-vs-sll-in-one-seo/seo-plugins.png
+thumbnail: /best-wordpress-seo-plugins-yoast-vs-all-in-one-seo/seo-plugins.png
 ---
 
 The WordPress platform is the single most effective way of sharing content across the internet. With blogging and article writing being the most popular way to communicate with your consumer, you can count on WordPress to help you generate organic traffic to your site even with little to no experience. In this article we will outline some most used SEO plugins that will help enhance your site’s search.
