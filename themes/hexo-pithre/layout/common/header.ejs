@@ -1,0 +1,39 @@
+<nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="/" class="current-parent logo">bravokeyl</a>
+      </div>
+      <div class="col-xs-6">
+        <div id="hamburger-icon">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <% for (var i in theme.menu) { %>
+            <li>
+                <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+            </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</div>

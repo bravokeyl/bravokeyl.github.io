@@ -1,0 +1,13 @@
+<% var year = post.date.year(); %>
+<article id="<%= post.layout %>-<%= post.slug %>" class="post single-entry entry entry-type-<%= post.layout %>">
+  <% if (post.link || post.title) { %>
+      <header class="article-header">
+          <%- partial('post/title', { class_name: 'article-title' }) %>
+      </header>
+  <% } %>
+  <div class="post-content">
+    <div class="post-info scroll-reveal"><%= post.author || config.author %> on <%- post.date.format('MMM Do YYYY') %>
+      tagged in <%- partial('post/tag') %></div>
+    <p class="excerpt scroll-reveal"><%- post.content %></p>
+  </div>
+</article>

@@ -1,0 +1,23 @@
+<%- partial('common/head') %>
+<body class="">
+<%- partial('common/header',null, {cache: !config.relative_link}) %>
+<div class="site-container introduction page-1">
+<% if(is_post() || is_home()){ %>
+<section class="page blog blog-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <%- body %>
+      </div>
+    </div>
+  </div>
+</section>
+<% } %>
+<% if(is_page()) {%>
+<h1>Hola! Pithre!!</h1>
+<% } %>
+<%- partial('common/footer') %>
+</div>
+<%- partial('common/scripts') %>
+</body>
+</html>

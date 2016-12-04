@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%
+        var title = page.title;
+        if(is_home()) {
+          title = "Single Sided WordPress Lover";
+        }
+        if (is_archive()) {
+            title = __('index.archive');
+            if (is_month()) {
+                title += ': ' + page.year + '/' + page.month;
+            } else if (is_year()) {
+                title += ': ' + page.year;
+            }
+        } else if (is_category()) {
+            title = __('index.category') + ': ' + page.category;
+        } else if (is_tag()) {
+            title = __('index.tag') + ': ' + page.tag;
+        }
+    %>
+    <%
+      var description = config.description;
+      if(page.description) {
+        description = page.description;
+      }
+    %>
+    <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="author" content="bravokeyl">
+    <meta name="copyright" content="&copy; Copyright 2016 - bravokeyl" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="BravoKeyl | Single sided WordPress lover"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bravokeyl.com/"/>
+    <meta property="og:image" content="https://bravokeyl.com/images/share.jpg"/>
+    <meta property="og:site_name" content="BravoKeyl | Single sided WordPress lover"/>
+    <meta property="og:description" content="BravoKeyl aka bad.ra, single sided WordPress lover and Product Engineer talking to embedded devices."/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bravokeyl">
+    <meta name="twitter:creator" content="@bravokeyl">
+    <meta name="twitter:title" content="BravoKeyl | Single sided WordPress lover">
+    <meta name="twitter:description" content="BravoKeyl aka bad.ra, single sided WordPress lover and Product Engineer talking to embedded devices.">
+    <meta name="twitter:image:src" content="https://bravokeyl.com/images/share.jpg">
+    <meta itemprop="name" content="BravoKeyl - Single sided WordPress lover">
+    <meta itemprop="description" content="BravoKeyl aka bad.ra, single sided WordPress lover and Product Engineer talking to embedded devices.">
+    <meta itemprop="image" content="https://bravokeyl.com/images/share.jpg">
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link href="apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i" rel="stylesheet">
+    <%- css('lib/fontawesome/css/font-awesome.min') %>
+    <%- css('lib/bootstrap/css/bootstrap.min') %>
+    <%- css('css/style') %>
+  </head>

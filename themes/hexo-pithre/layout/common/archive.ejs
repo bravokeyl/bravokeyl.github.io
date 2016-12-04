@@ -1,0 +1,23 @@
+<% var last, postCount = 0; %>
+<% page.posts.each(function(post, i) { %>
+    <% var year = post.date.year(); %>
+    <article class="post">
+      <%- partial('common/thumbnail', { post: post }) %>
+      <div class="post-content">
+        <p class="post-info scroll-reveal"><%= post.author || config.author %> on <%- post.date.format('MMM Do YYYY') %></p>
+        <h2 class="scroll-reveal"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+        <p class="excerpt scroll-reveal">
+        <% var excerpt = post.excerpt; %>
+        <% if(excerpt){ %>
+          <%- post.excerpt %>
+          </p>
+          <div style="padding-top: 20px">
+            <a href="<%- url_for(post.path) %>" class="read-more scroll-reveal">Read More</a>
+          </div>
+          <% } else { %>
+            <%- post.content %>
+            </p>
+        <% }%>
+      </div>
+    </article>
+<% }); %>

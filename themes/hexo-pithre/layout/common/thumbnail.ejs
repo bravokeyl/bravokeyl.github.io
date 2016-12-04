@@ -1,0 +1,8 @@
+<a href="<%- url_for(post.link ? post.link : post.path) %>">
+    <% var thumbnailUrl = post.thumbnail; %>
+    <% if (thumbnailUrl) { %>
+      <%- image_tag(thumbnailUrl,{class:"img-responsive entry-thumbnail scroll-reveal", alt: post.title}) %>
+    <% } else { %>
+        <span class="thumbnail-image thumbnail-none"></span>
+    <% } %>
+</a>
