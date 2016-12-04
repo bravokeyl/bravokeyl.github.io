@@ -16,14 +16,11 @@ The WordPress image or the other images that are available on Amazon Lightsail w
 Password is stored on the image and we can retrieve it by connecting to our instance using SSH client. There are two ways to connect to our server - **Browser based SSH client** or **via Terminal**. Easiest way is to connect using browse based SSH, in this article I will show you that.
 
 **Go to the Lightsail home page and find the WordPress instance that you want to connect to.**
-
-![AWS Lighsail - Lightsail home page](/installing-wordpress-on-aws-amazon-lightsail-witn-in-five-mintues/resource.png "AWS Lighsail - Lightsail home page")
-
+<amp-img src="/installing-wordpress-on-aws-amazon-lightsail-witn-in-five-mintues/resource.png" width="650" height="300" alt="AWS Lighsail - Lightsail home page"></amp-img>
 **You'll need to connect to your instance either on the home page or the instance management page. Click on the three vertical dots icon on the homepage and then click on connect or manage**
-![AWS Lighsail - Lightsail home page](connect.png "AWS Lighsail - Lightsail home page")
+<amp-img src="connect.png" width="650" height="300" alt="AWS Lighsail - Lightsail home page"></amp-img>
 **If you click manage you will see the page like below, just click Connect using SSH**
-![AWS Lighsail - Lightsail Instance page](instance-page.png "AWS Lighsail - Lightsail Instance page")
-
+<amp-img src="instance-page.png" width="650" height="300" alt="AWS Lighsail - Lightsail Instance page"></amp-img>
 **Type the following in the terminal:**<br/>**```cat bitnami_application_password```**<br/>
-![AWS Lighsail - Browser SSH](browser-ssh.png "AWS Lighsail - Browser SSH")
+<amp-img src="browser-ssh.png" width="650" height="300" alt="AWS Lighsail - Browser SSH"></amp-img>
 <br/>Now copy the password and save it safely, in my case it's `JhrcomMRk4ED`. Go to your site admin (eg: `http://example.com/wp-login.php`) and use `user` as username and the password you copied as password. That's it, be sure to create **`different user`** and delete default user.

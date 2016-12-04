@@ -35,7 +35,7 @@ Jetpack helps to protect your website from malicious log in attempts and all typ
 
 You can have multiple users on your WordPress account, and they can sign on with their WordPress.com accounts.
 
-![Jetpack stats](stats.png "Jetpack stats")
+<amp-img src="stats.png" width="650" height="300" alt="Jetpack stats"></amp-img>
 
 #### **Easy Site Statistics:**
 
@@ -44,8 +44,7 @@ One of the most important features of the Jetpack Plugin is that you can get to 
 #### **Multidevice Management:**
 
 Regardless of how many devices you use, you can login, post and manage your website using Jetpack. So, whether you want to do a quick post with your phone, or prefer to use your personal computer, Jetpack has got you covered.
-
-![Jetpack Custom CSS](customcss.png "Jetpack Custom CSS")
+<amp-img src="customcss.png" width="650" height="300" alt="Jetpack Custom CSS"></amp-img>
 <br/>
 #### **Improved Appearance:**
 

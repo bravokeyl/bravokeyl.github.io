@@ -23,17 +23,17 @@ So let's setup a WordPress installation on AWS Amazon Lightsail with in a matter
 
 Just login to [AWS console](https://console.aws.amazon.com/) and click on the services pages check for Lightsail or just go to [Lightsail home page](https://lightsail.aws.amazon.com/) after login.
 <!-- more -->
-![AWS Lighsail - Create a resource](lightsail-1.png "AWS Lighsail - Create a resource")
+<amp-img src="lightsail-1.png" width="650" height="300" alt="AWS Lighsail - Create a resource"></amp-img>
 We will see a screen like the above image just click on create instance then under pick your instance image make sure that **APP+OS** is selected then select **WordPress** image.
-![AWS Lighsail - Pick WordPress Image](pick-wordpress-image.png "AWS Lighsail - Pick WordPress Image")
+<amp-img src="pick-wordpress-image.png" width="650" height="300" alt="AWS Lighsail - Pick WordPress Image"></amp-img>
 ---
 Then choose your instance plan accordingly for a small blog which gets less traffic **$5 plan** is enough.
-![AWS Lighsail - Choose Instance Plan](plan-lightsail.png "AWS Lighsail - Choose Instance Plan")
+<amp-img src="plan-lightsail.png" width="650" height="300" alt="AWS Lighsail - Choose Instance Plan"></amp-img>
 
 Then just hit create after naming your iresource, let's say **my-wordpress-blog**, just after few seconds you see that image status will be running and you get one **public IP**, in my case it's **54.152.125.99**
 
-![AWS Lighsail - Create Resource](resource.png "AWS Lighsail - Create Resource")
+<amp-img src="resource.png" width="650" height="300" alt="AWS Lighsail - Create Resource"></amp-img>
 
 That's it, we are done with installation, yay!. Just go to the url.
 
-![AWS Lighsail - WordPress Installed](installed.png "AWS Lighsail - WordPress Installed")
+<amp-img src="installed.png" width="650" height="300" alt="AWS Lighsail - WordPress Installed"></amp-img>

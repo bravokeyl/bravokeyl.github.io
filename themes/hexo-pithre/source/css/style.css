@@ -41,9 +41,7 @@ img {
 .single-entry .post-content {
   border: 2px solid #f0f0f0;
 }
-.site-container {
-  max-width: 100%;
-}
+
 .page header {
   margin-bottom: 70px;
 }
@@ -62,7 +60,6 @@ img {
 .page header p {
     color: #848484;
     font-size: 18px;
-    width: 50%;
 }
 
 
@@ -103,14 +100,11 @@ img {
 --------------------------------------------------------------*/
 
 body {
-    background: #ff7e5f;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ff7e5f, #feb47b);
-    background: linear-gradient(to left, #ff7e5f, #feb47b);
+    background: #fff;
 }
 
 .social {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .social i {
@@ -156,57 +150,17 @@ body {
 /*--------------------------------------------------------------
 04. Navigation
 --------------------------------------------------------------*/
-
-nav {
-    padding-top: 60px;
-    position: relative;
-    z-index: 100;
-}
-
 .logo {
     color: #2b2b2b;
     font-size: 20px;
     letter-spacing: 2px;
+    line-height: 40px;
     text-transform: uppercase;
 }
 
 .logo:hover {
     color: #2b2b2b;
     text-decoration: none;
-}
-
-.navbar-right {
-    margin-right: -25px;
-}
-
-.navbar {
-    position: relative;
-    z-index: 1000;
-}
-
-.navbar .navbar-nav> li> a {
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.navbar-nav {
-    opacity: 0;
-    margin-top: -38px;
-    margin-right: 80px;
-}
-
-.nav> li> a:focus, .nav> li> a:hover, .nav> li> a:active {
-    background-color: transparent;
-}
-
-.nav .open> a, .nav .open> a:focus, .nav .open> a:hover {
-    background-color: #fff;
-    color: #2b2b2b !important;
-    border-radius: 2px 2px 0 0;
 }
 
 #hamburger-icon {
@@ -254,9 +208,6 @@ nav {
     width: 26px;
 }
 
-#hamburger-icon.active .line-2 {
-    opacity: 0;
-}
 
 #hamburger-icon.active .line-3 {
     transform: translateY(-9px) translateX(0) rotate(-45deg);
@@ -267,18 +218,6 @@ nav {
 05. Nav animation
 --------------------------------------------------------------*/
 
-body.show .introduction {
-    box-shadow: 0 -10px 10px 4px rgba(0, 0, 0, 0.11);
-    transform: scale(0.9, 0.9);
-}
-
-body.show .navbar-nav {
-    opacity: 1;
-}
-
-body.show .logo {
-    color: #fff;
-}
 
 body.show #hamburger-icon .line {
     background-color: #fff;
@@ -286,10 +225,6 @@ body.show #hamburger-icon .line {
 
 .introduction {
     background-color: #fff;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
     height: auto;
     float: left;
     box-shadow: 0 -10px 10px 0px rgba(0, 0, 0, 0.075);
@@ -431,82 +366,6 @@ body.page-contact-2 .introduction {
     font-size: 90px;
 }
 
-.team-member {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.team-member:hover .team-info-overlay {
-    opacity: 1;
-}
-
-.team-info-overlay {
-    background-color: rgba(255, 255, 255, 0.92);
-    color: #2b2b2b;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    display: -webkit-flex;
-    transition: all ease-in-out 300ms;
-    -webkit-transition: all ease-in-out 300ms;
-}
-
-.team-info-content {
-    text-align: center;
-    margin: auto auto;
-}
-
-.team-info-content p {
-    font-size: 26px;
-}
-
-.team-info-content i {
-    color: #2b2b2b;
-    font-size: 18px;
-}
-
-.testimonials {
-    background-color: #f8f8f8;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-bottom: 30px;
-}
-
-#testimonials-carousel {
-    text-align: center;
-}
-
-#testimonials-carousel .carousel-indicators {
-    top: 220px;
-}
-
-#testimonials-carousel .carousel-indicators li {
-    background-color: #d8d8d8;
-}
-
-#testimonials-carousel p {
-    font-size: 20px;
-    font-style: italic;
-    line-height: 1.8em;
-    margin-bottom: 30px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#testimonials-carousel img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#testimonials-carousel .author {
-    font-size: 16px;
-    margin-top: 20px;
-}
 
 .about-2 {
     padding-top: 200px;
@@ -605,7 +464,7 @@ body.page-contact-2 .introduction {
 --------------------------------------------------------------*/
 
 .blog {
-    padding-top: 250px;
+    padding-top: 48px;
 }
 
 .blog header {
@@ -618,15 +477,6 @@ body.page-contact-2 .introduction {
     margin-right: auto;
 }
 
-.blog .post {
-  margin-bottom: 80px;
-  border: 2px solid #f0f0f0;
-}
-
-.blog .post-content {
-  padding: 50px;
-}
-
 .blog .post-info, .blog h2 {
   text-align: center;
 }
@@ -634,7 +484,6 @@ body.page-contact-2 .introduction {
 .blog .post-info {
     color: #848484;
     font-size: 16px;
-    margin-bottom: 30px;
 }
 
 .blog h2 {
@@ -754,7 +603,6 @@ body.page-contact-2 .introduction {
 
 footer {
     text-align: center;
-    padding-top: 60px;
     padding-bottom: 30px;
     position: relative;
     z-index: 0;
@@ -765,7 +613,7 @@ footer a {
 }
 
 footer nav {
-    margin-bottom: 45px;
+  margin-bottom: 32px;
 }
 
 footer nav a {
@@ -899,4 +747,71 @@ footer nav a:hover {
         padding-left: 7px;
         padding-right: 7px;
     }
+}
+
+
+/* Custom CSS */
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tillana', cursive;
+  font-weight: 500;
+}
+ul, ol {
+  list-style: none;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.625;
+}
+.site-header {
+  width: 100%;
+  height: 80px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+}
+.site-header nav {
+  float: right;
+}
+.site-header a,
+.site-header a:hover,
+.site-header a:focus {
+  color: #2b2b2b;
+}
+.site-header li {
+  display: inline-block;
+}
+.site-header li a {
+  display: block;
+  line-height: 40px;
+  padding: 0 16px;
+}
+.site-inner {
+  max-width: 100%;
+  background: #fff;
+  transition: all .3s;
+}
+.entry {
+  margin-bottom: 48px;
+  border: 2px solid #f0f0f0;
+}
+.entry header {
+  padding: 50px 50px 0;
+  margin-bottom: 0px;
+}
+.entry h2 {
+  line-height: 1.625;
+  margin-bottom: 32px;
+}
+.entry-meta {
+  margin-bottom: 20px;
+}
+.entry-content {
+  padding: 32px 50px 50px;
+}
+.entry-more {
+  padding-top: 20px;
 }
