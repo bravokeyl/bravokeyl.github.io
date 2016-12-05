@@ -29,13 +29,13 @@ There are many plugins that helps you to add custom css. Most popular ones as of
 
 Just active either one of these , if you activated Jetpack’s Module you will see And extra menu item under **Appearance** which is **Edit CSS**.
 
-<amp-img src="customcss.png" width="650" height="300" alt="Jetpack Custom CSS"></amp-img>
+<amp-img src="customcss.png" width="650" height="300" alt="Jetpack Custom CSS" layout="responsive"></amp-img>
 
 You just need to add  your code here right after comments.In the screenshot above you see I have added **div.sharedaddy** … right after comments or you can delete that commented code entirely.This module also has revisions each time you click **Save Stylesheet** a revision is saved. this module will store the last 25 revisions made to any theme. These revisions allow you to look back at the recent changes and revert to an earlier version if you need to.
 
 If you are using **Simple Custom CSS** just after activating you see **Custom CSS** menu item under **Appearance**.
 
-<amp-img src="simplecustomcss.png" width="650" height="300" alt="Simple Custom CSS"></amp-img>
+<amp-img src="simplecustomcss.png" width="650" height="300" alt="Simple Custom CSS" layout="responsive"></amp-img>
 
 If you click on that new link you see like above but without any code added with just a comment saying  `/* Enter Your Custom CSS Here */`.
 
