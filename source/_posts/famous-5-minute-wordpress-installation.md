@@ -1,6 +1,6 @@
 ---
 title: Famous 5 Minute WordPress Installation
-thumbnail: 
+thumbnail:
 date: 2013-09-02 16:26:39
 description:
 categories:
@@ -19,6 +19,4 @@ keywords:
 - If you installed WordPress in the root directory, you should visit: http://example.com/
 - If you installed WordPress in its own subdirectory called blog, for example, you should visit: `http://example.com/blog/`
 
-That’s it success! WordPress is now installed.
-
-Now just go to `http://example.com/wp-admin`  which is the administrator area for your site.
+That’s it success! WordPress is now installed.Now just go to `http://example.com/wp-admin`  which is the administrator area for your site.
