@@ -2,3 +2,6 @@ menu:
     Home: /
     About: /about/
     Contact: /contact/
+customize:
+    theme_color: '#006bde'
+    highlight: androidstudio

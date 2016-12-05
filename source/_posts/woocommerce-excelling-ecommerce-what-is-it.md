@@ -2,7 +2,7 @@
 title: WooCommerce – excelling eCommerce - what is it ?
 date: 2015-04-05 14:24:23
 description: WooCommerce -an excelling eCommerce - create an online store from the scratch, or use it to add a store front to your existing WordPress site.
-thumbnail: woocommerce-excelling-ecommerce-what-is-it/woocommerce-e.png
+thumbnail: /woocommerce-excelling-ecommerce-what-is-it/woocommerce-e.png
 tags:
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Photo Editing Made Easy with PicMonkey
-thumbnail: photo-editing-made-easy-with-picmonkey/picmonkey.png
 date: 2015-05-03 16:17:19
 description:
+thumbnail: /photo-editing-made-easy-with-picmonkey/picmonkey.png
 categories:
 tags:
 keywords:
