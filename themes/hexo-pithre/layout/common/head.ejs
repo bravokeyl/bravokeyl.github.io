@@ -43,8 +43,8 @@
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="<% if (title) { %><%= title %> | <% } %><%= config.title %>"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://bravokeyl.com/"/>
-    <meta property="og:image" content="<%= ogimage %>"/>
+    <meta property="og:url" content="https://bravokeyl.com"/>
+    <meta property="og:image" content="<%= config.url+ogimage %>"/>
     <meta property="og:site_name" content="BravoKeyl | Single sided WordPress lover"/>
     <meta property="og:description" content="<%= description %>"/>
     <meta name="twitter:card" content="summary_large_image">
@@ -52,10 +52,10 @@
     <meta name="twitter:creator" content="@bravokeyl">
     <meta name="twitter:title" content="<% if (title) { %><%= title %> | <% } %><%= config.title %>">
     <meta name="twitter:description" content="<%= description %>">
-    <meta name="twitter:image:src" content="<%= ogimage %>">
+    <meta name="twitter:image:src" content="<%= config.url+ogimage %>">
     <meta itemprop="name" content="BravoKeyl - Single sided WordPress lover">
     <meta itemprop="description" content="<%= description %>">
-    <meta itemprop="image" content="<%= ogimage %>">
+    <meta itemprop="image" content="<%= config.url+ogimage %>">
     <link rel="canonical" href="<%- url_for(page.path) %>" />
     <link href="/favicon.ico" rel="shortcut icon" />
     <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
