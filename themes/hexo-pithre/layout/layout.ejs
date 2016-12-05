@@ -3,7 +3,6 @@
 <%- partial('common/header',null, {cache: !config.relative_link}) %>
 <div class="container">
   <div class="site-inner">
-  <% if(is_post() || is_home()){ %>
   <section class="page blog">
     <div class="container">
       <div class="row">
@@ -13,10 +12,6 @@
       </div>
     </div>
   </section>
-  <% } %>
-  <% if(is_page()) {%>
-  <h1>Hola! Pithre!!</h1>
-  <% } %>
   <%- partial('common/footer') %>
   </div>
 </div>

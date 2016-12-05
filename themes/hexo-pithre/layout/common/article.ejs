@@ -3,11 +3,13 @@
   <% if (post.link || post.title) { %>
       <header class="article-header">
           <%- partial('post/title', { class_name: 'article-title' }) %>
+          <div class="entry-meta post-info">
+            <%= post.author || config.author %> on <%- post.date.format('MMM Do YYYY') %>
+            tagged in <%- partial('post/tag') %>
+          </div>
       </header>
   <% } %>
   <div class="entry-content post-content">
-    <div class="entry-meta post-info"><%= post.author || config.author %> on <%- post.date.format('MMM Do YYYY') %>
-      tagged in <%- partial('post/tag') %></div>
-    <p class="excerpt scroll-reveal"><%- post.content %></p>
+    <%- post.content %>
   </div>
 </article>

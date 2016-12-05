@@ -1,14 +1,8 @@
-body {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 16px;
-}
-
 h1 {
     font-size: 55px;
     line-height: 1.3em;
     margin: 0;
 }
-
 .page h1 {
     font-size: 40px;
 }
@@ -352,6 +346,11 @@ p {
 .pagination a:hover,
 .pagination a:focus {
   text-decoration: none;
+}
+
+/* Tags */
+.article-tag-list {
+  list-style: none;
 }
 /* Highlight */
 .highlight {
