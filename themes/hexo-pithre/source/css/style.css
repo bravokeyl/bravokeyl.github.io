@@ -52,8 +52,7 @@ img {
 }
 
 .page header p {
-    color: #848484;
-    font-size: 18px;
+  color: #848484;
 }
 
 body {
@@ -120,7 +119,7 @@ body {
   text-align: center;
 }
 
-.blog .post-info {
+.post-info {
     color: #848484;
     font-size: 16px;
 }
@@ -178,27 +177,8 @@ footer nav a:hover {
     font-size: 12px;
 }
 
-@media only screen and (max-width: 767px) {
-    body {
-        background: #ff7e5f;
-    }
-
-    nav {
-        padding-top: 35px;
-    }
-    .logo {
-        color: #fff;
-    }
-    .page {
-        padding-top: 80px;
-    }
-}
-
 @media only screen and (max-width: 460px) {
 
-    .blog .post-content {
-        padding: 30px;
-    }
     footer nav a {
         padding-left: 7px;
         padding-right: 7px;
@@ -400,4 +380,68 @@ p {
 }
 .highlight .code .strong {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 460px) {
+  body, p, li {
+    font-size: 16px;
+  }
+  .site-header {
+    height: auto;
+  }
+  .site-logo,
+  .site-menu {
+    text-align: center;
+  }
+  .site-header nav {
+    float: none;
+    padding-top: 0px;
+  }
+  .site-header ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .site-header li {
+    margin-bottom: 0px;
+  }
+  .site-header li a {
+
+  }
+  .site-main {
+    padding-top: 16px;
+  }
+  .site-main-container {
+    padding: 0px;
+  }
+  .entry {
+    margin-bottom: 32px;
+  }
+  .entry header {
+    padding: 16px 16px 0px;
+  }
+  .entry h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .entry-meta {
+    font-size: 16px;
+  }
+  .entry-content {
+    padding: 16px;
+  }
+  .single-entry {
+    margin-bottom: 0px;
+  }
+  .single-entry header {
+    padding: 0px;
+  }
+  .single-entry h1 {
+    font-size: 24px;
+  }
+  .site-footer {
+    padding: 32px 0px;
+  }
+  footer nav {
+    margin-bottom: 16px;
+  }
 }
