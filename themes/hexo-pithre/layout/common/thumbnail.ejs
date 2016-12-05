@@ -1,7 +1,7 @@
 <a href="<%- url_for(post.link ? post.link : post.path) %>">
     <% var thumbnailUrl = post.thumbnail; %>
     <% if (thumbnailUrl) { %>
-      <amp-img src="<%- thumbnailUrl %>" alt="<%- post.title %>" width="650" height="300" layout="responsive"></amp-img>
+      <amp-img src="<%- thumbnailUrl %>" alt="<%- post.title %>" width="700" height="300" layout="responsive"></amp-img>
     <% } else { %>
         <span class="thumbnail-image thumbnail-none"></span>
     <% } %>

@@ -1,0 +1,53 @@
+<% if(is_post()) { %>
+<script type="application/ld+json">
+  {
+    "url": "https://bravokeyl.com/",
+    "name": "Bravokeyl",
+    "alternateName": "Double Pithre",
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": "<%= data.permalink %>",
+    "headline": "<%= data.title %>",
+    "datePublished": "<%= data.date.format() %>",
+    "dateModified": "<%= data.updated.format() %>",
+    "description": "<%= data.description %>",
+    "author": {
+      "@type": "Person",
+      "name": "bravokeyl",
+      "url": "http://www.your-site.com",
+      "sameAs": [
+        "http://www.facebook.com/bravokeyl",
+        "http://instagram.com/bravokeyl",
+        "http://www.linkedin.com/in/bravokeyl",
+        "http://plus.google.com/+bravokeyl"
+      ]
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "<%= config.url + image %>",
+      "height": 300,
+      "width": 700
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Mu Bit",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://bravokeyl.com/mu-bit.png",
+        "width": 60,
+        "height": 60
+      }
+    }
+  }
+</script>
+<% } else { %>
+  <script type="application/ld+json">
+    {
+      "url": "https://bravokeyl.com/",
+      "name": "Bravokeyl",
+      "alternateName": "Double Pithre",
+      "@context": "http://schema.org",
+      "@type": "Website"
+    }
+  </script>
+<% } %>
