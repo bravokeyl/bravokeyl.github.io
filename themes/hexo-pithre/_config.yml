@@ -1,7 +1,7 @@
 menu:
-    Home: /
-    About: /about/
-    Contact: /contact/
+    WordPress: /wordpress/
+    React: /react/
+    AWS: /aws/
 customize:
     theme_color: '#006bde'
     highlight: androidstudio

@@ -64,7 +64,7 @@ body {
 }
 
 .social i {
-    font-size: 18px;
+    font-size: 32px;
     transition: all ease-in-out 300ms;
     -webkit-transition: all ease-in-out 300ms;
 }
@@ -189,7 +189,8 @@ footer nav a:hover {
 /* Custom CSS */
 body {
   font-family: 'Open Sans', sans-serif;
-
+  font-size: 18px;
+  line-height: 1.625;
 }
 pre {
   background: transparent;
@@ -333,12 +334,30 @@ p {
   list-style: none;
 }
 /* Page */
-.page-content {
-  border: 1px solid #eee;
+.card {
+  border: 2px solid #eee;
   padding: 50px;
+  margin-bottom: 32px;
+}
+.int-card {
+  -webkit-transition: opacity ease-in-out 3000ms;
+  transition: opacity ease-in-out 3000ms;
 }
 .page-content h1 {
   margin-bottom: 32px;
+}
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+.interests {
+  font-size: 16px;
+}
+.iterests-inner {
+  opacity: 0.4;
+}
+.card:hover .iterests-inner {
+  opacity: 1;
 }
 /* Highlight */
 .highlight {
@@ -395,6 +414,9 @@ p {
   }
   .site-menu {
     float: right;
+  }
+  .iterests-inner {
+    display: block;
   }
 }
 @media only screen and (max-width: 480px) {
