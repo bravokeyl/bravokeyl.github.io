@@ -44,6 +44,7 @@ default_category: pithre
 category_map:
 tag_map:
 
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -65,3 +66,6 @@ theme: hexo-pithre
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+sitemap:
+    path: sitemap.xml

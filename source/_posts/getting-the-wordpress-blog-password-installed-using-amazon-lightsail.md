@@ -3,8 +3,12 @@ title: Getting the WordPress blog password installed using Amazon Lightsail
 thumbnail: /getting-the-wordpress-blog-password-installed-using-amazon-lightsail/wp-password-lightsail.png
 date: 2016-12-04 18:12:04
 description: In this article I will show you how to retrieve default password created by Lightsail while installing WordPress using the Bitnami pre-configured image with screenshots.
-categories: aws, wordpress
-tags: lightsail, wordpress
+categories:
+- aws
+- wordpress
+tags:
+- lightsail
+- wordpress
 keywords: lightsail, wordpress, login,  change password
 ---
 In the previous [article](/installing-wordpress-on-aws-amazon-lightsail-witn-in-five-mintues/), I showed you the steps to install [WordPress](/famous-5-minute-wordpress-installation/) on Amazon Lightsail. After installing WordPress we need to login into administration area and change the **`default password`** or entirely delete the **`default user`** and create a new user, in this article I will show you how we can login into WordPress and do that.
