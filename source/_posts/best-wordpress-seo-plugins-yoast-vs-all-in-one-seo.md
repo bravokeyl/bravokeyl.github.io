@@ -1,7 +1,12 @@
 ---
 title: Best WordPress SEO plugins Yoast vs All in one SEO
 date: 2016-03-24 01:00:48
-tags: seo
+categories:
+- wordpress
+tags:
+- seo
+- yoast
+- all in one seo
 thumbnail: /best-wordpress-seo-plugins-yoast-vs-all-in-one-seo/seo-plugins.png
 ---
 

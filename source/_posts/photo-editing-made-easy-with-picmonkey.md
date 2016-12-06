@@ -4,6 +4,7 @@ date: 2015-05-03 16:17:19
 description:
 thumbnail: /photo-editing-made-easy-with-picmonkey/picmonkey.png
 categories:
+- general
 tags:
 keywords:
 ---

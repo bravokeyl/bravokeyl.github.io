@@ -1,7 +1,10 @@
 ---
 title: How to customize our site using custom css
 date: 2015-05-03 00:47:39
+categories:
+- wordpress
 tags:
+- css
 ---
 
 Most of the times even though we have chosen [right theme](https://bravokeyl.com/how-to-choose-right-theme-for-your-site/) for site that suits our needs , we still need more or need a little bit of styling to be changed or little functionality to be changed.

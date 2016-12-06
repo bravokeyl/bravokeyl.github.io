@@ -1,8 +1,11 @@
 ---
 title: 'Exploring Jetpack : How it helps to boost functionality'
 date: 2015-03-05 00:13:19
-tags: ecommerce, shop, woocommerce
-categories: plugins
+categories:
+- wordpress
+- plugins
+tags:
+- jetpack
 ---
 
 If you already have a WordPress website, or you are only just thinking of creating one, you must have come across the name ‘Jetpack’ at least once and you were probably wondering “***Okay, what the heck is this about?***” Don’t worry, i had the same feeling too when i created my first WordPress website. In fact, i didn’t install the Jetpack Plugin until several weeks and countless nagging by WordPress to install the Plugin. That was years ago when Jetpack wasn’t so popular. But now, every Website owner that uses WordPress CMS knows that one of the first few things to do when creating a WordPress website, is to install a Jetpack Plugin.

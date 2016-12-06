@@ -1,7 +1,11 @@
 ---
 title: Exploring title_tag theme feature
 date: 2015-01-10 23:51:32
+categories:
+- wordpress
+- core
 tags:
+- title_tag
 ---
 
 It’s close to a month since WordPress 4.1 released , it’s packed with several new awesome features like

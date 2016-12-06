@@ -4,7 +4,10 @@ thumbnail:
 date: 2013-12-22 15:52:22
 description: Code snippet to change paginantion text in Genesis child theme
 categories:
+- wordpress
+- genesis
 tags:
+- pagination
 keywords: wordpress, pagination, geneis, change, text
 ---
 ```

@@ -3,7 +3,13 @@ title: WooCommerce – excelling eCommerce - what is it ?
 date: 2015-04-05 14:24:23
 description: WooCommerce -an excelling eCommerce - create an online store from the scratch, or use it to add a store front to your existing WordPress site.
 thumbnail: /woocommerce-excelling-ecommerce-what-is-it/woocommerce-e.png
+categories:
+- wordpress
+- woocommerce
 tags:
+- woocommerce
+- ecommerce
+- shop
 ---
 
 [WooCommerce](https://wordpress.org/plugins/woocommerce/) is a plugin that can be used to create eCommerce websites on WordPress websites. You could either use it to create an online store from the scratch, or use it to add a store front to your existing WordPress website. WooCommerce is very popular amongst WordPress users, with millions of downloads and this is not unconnected to the fact that WooCommerce has an advanced store management interface that can be used for digital products, as well as physical products.

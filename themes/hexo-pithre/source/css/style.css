@@ -332,6 +332,14 @@ p {
 .article-tag-list {
   list-style: none;
 }
+/* Page */
+.page-content {
+  border: 1px solid #eee;
+  padding: 50px;
+}
+.page-content h1 {
+  margin-bottom: 32px;
+}
 /* Highlight */
 .highlight {
   color: #a9b7c6;
