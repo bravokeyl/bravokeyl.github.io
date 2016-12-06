@@ -40,7 +40,7 @@
     <meta name="description" content="<%= description %>">
     <meta name="author" content="bravokeyl">
     <meta name="copyright" content="&copy; Copyright 2016 - bravokeyl" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="<% if (page.robots) { %><%= page.robots %><% } else { %>index, follow<% } %>" />
     <meta property="og:title" content="<% if (title) { %><%= title %> | <% } %><%= config.title %>"/>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bravokeyl.com"/>
