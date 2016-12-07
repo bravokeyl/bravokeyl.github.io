@@ -9,6 +9,7 @@ tags:
 - lightsail
 thumbnail: /installing-wordpress-on-aws-amazon-lightsail-witn-in-five-mintues/lightsail.png
 description: AWS launched Amazon Lightsail, a virtual private server service just like DigitalOcean offerings with a starting price of $5 per month. And they are marketing it as The Power of AWS, the Simplicity of a VPS which I think aptly suits, it takes all the hard work on creating an instance and setting up with correct inbound/outbound rules, creating and assigning elastic IP to an instance, setting up firewall, SSH login, taking snapshots.
+
 ---
 ### Amazon Lightsail
 

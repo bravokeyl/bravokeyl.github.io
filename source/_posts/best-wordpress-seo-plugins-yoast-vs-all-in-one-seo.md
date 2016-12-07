@@ -1,6 +1,7 @@
 ---
 title: Best WordPress SEO plugins Yoast vs All in one SEO
 date: 2016-03-24 01:00:48
+description: Confused or not sure which SEO plugin to use for your WordPress site? SEO Yoast or ALL in One SEO? Got you here, in this article I will go through two of the most popular SEO plugins available for free.
 categories:
 - wordpress
 tags:

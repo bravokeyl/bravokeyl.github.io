@@ -1,6 +1,7 @@
 ---
-title: How to customize our site using custom css
+title: How to customize website using custom CSS
 date: 2015-05-03 00:47:39
+description: Most of the times even though we have chosen right theme for site that suits our needs , we still need more or need a little bit of work, especially with the custom CSS.Let's say we want to change the color of links or want to background color of the article.
 categories:
 - wordpress
 tags:
