@@ -2,7 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 site-logo">
-          <a href="/" class="logo">bravokeyl</a>
+        <% if (url_for(page.path) == '/index.html'){ %>
+          <h1 class="site-title">
+            <a href="/" class="logo">bravokeyl</a>
+          </h1>
+        <% } else { %>
+            <a href="/" class="logo">bravokeyl</a>
+        <% } %>
       </div>
       <div class="col-md-6 site-menu">
         <nav>
