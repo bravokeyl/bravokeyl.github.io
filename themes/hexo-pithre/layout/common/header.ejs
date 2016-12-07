@@ -2,7 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 site-logo">
-        <a href="/" class="current-parent logo">bravokeyl</a>
+        <% if(is_home()){ %>
+          <h1 class="site-title">
+            <a href="/" class="logo">bravokeyl</a>
+          </h1>
+        <% } else { %>
+            <a href="/" class="logo">bravokeyl</a>
+        <% } %>
       </div>
       <div class="col-md-6 site-menu">
         <nav>

@@ -218,6 +218,10 @@ p {
   padding: 20px 0px;
   border-bottom: 1px solid #eee;
 }
+.site-title {
+  font-size: 20px;
+  line-height: 40px;
+}
 .site-header nav {
   float: right;
 }
