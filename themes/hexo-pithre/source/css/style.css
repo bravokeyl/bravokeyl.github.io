@@ -426,6 +426,7 @@ p {
 @media only screen and (max-width: 480px) {
   body, p, li {
     font-size: 16px;
+    line-height: 1.8;
   }
   .site-header {
     height: auto;
