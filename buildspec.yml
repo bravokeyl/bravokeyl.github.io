@@ -13,8 +13,10 @@ phases:
       - echo Build started on `date`
       - npm install
       - hexo generate
-      - cd public
-      - aws s3 sync . s3://blog.bravokeyl.com
+      - echo Present working directory
+      - pwd
+      - echo `date +%d-%m-%y+%H-%M-%s` > public/build.txt
+      - aws s3 sync public/. s3://blog.bravokeyl.com
   post_build:
     commands:
       - echo Build completed on `date`
