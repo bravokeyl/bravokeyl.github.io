@@ -1,8 +1,17 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "url": "<%= config.url %>",
+    "name": "Bravokeyl",
+    "alternateName": "Double Pithre"
+  }
+</script>
 <% if(is_post()) { %>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "BlogPosting",
+    "@type": "<%= data.schematype %>",
     "mainEntityOfPage": "<%= data.permalink %>",
     "headline": "<%= data.title %>",
     "datePublished": "<%= data.date.format() %>",
@@ -13,10 +22,10 @@
       "name": "bravokeyl",
       "url": "https://bravokeyl.com",
       "sameAs": [
-        "http://www.facebook.com/bravokeyl",
-        "http://instagram.com/bravokeyl",
-        "http://www.linkedin.com/in/bravokeyl",
-        "http://plus.google.com/+bravokeyl"
+        "https://www.facebook.com/bravokeyl",
+        "https://github.com/bravokeyl",
+        "https://www.linkedin.com/in/bravokeyl",
+        "https://plus.google.com/+bravokeyl"
       ]
     },
     "image": {
@@ -38,37 +47,27 @@
   }
 </script>
 <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-      "@id": "<%= config.url %>/wordpress",
-      "name": "WordPress",
-      "image": "<%= config.url %>/images/wordpress.png"
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "<%= config.url %>/wordpress",
+        "name": "WordPress",
+        "image": "<%= config.url %>/images/wordpress.png"
+      }
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@id": "<%= config.url %>/wordpress/genesis",
+        "name": "Genesis",
+        "image": "<%= config.url %>/images/genesis.png"
+      }
     }
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      "@id": "<%= config.url %>/wordpress/genesis",
-      "name": "Genesis",
-      "image": "<%= config.url %>/images/genesis.png"
-    }
+    ]
   }
-  ]
-}
 </script>
-<% } else { %>
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Website",
-      "url": "https://bravokeyl.com/",
-      "name": "Bravokeyl",
-      "alternateName": "Double Pithre"
-    }
-  </script>
-<% } %>
+<% }%>

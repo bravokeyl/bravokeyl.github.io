@@ -2,6 +2,7 @@
 title: Changing Pagination Text
 thumbnail:
 date: 2013-12-22 15:52:22
+schematype: TechArticle
 description: Code snippet to change paginantion text in Genesis child theme
 categories:
 - wordpress

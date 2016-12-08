@@ -1,6 +1,7 @@
 ---
 title: Famous 5 Minute WordPress Installation
 thumbnail:
+schematype: TechArticle
 date: 2013-09-02 16:26:39
 description:
 categories:

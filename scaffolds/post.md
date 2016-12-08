@@ -6,4 +6,5 @@ categories:
 tags:
 thumbnail: {{ title }}
 keywords:
+schematype: TechArticle
 ---

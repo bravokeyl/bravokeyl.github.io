@@ -1,8 +1,9 @@
 ---
 title: Photo Editing Made Easy with PicMonkey
 date: 2015-05-03 16:17:19
-description: While there are plenty of photo editing programs available that will allow you to re-size and add custom features to images, some of them come at a price and involve a steep learning curve. 
+description: While there are plenty of photo editing programs available that will allow you to re-size and add custom features to images, some of them come at a price and involve a steep learning curve.
 thumbnail: /photo-editing-made-easy-with-picmonkey/picmonkey.png
+schematype: TechArticle
 categories:
 - general
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Exploring title_tag theme feature
 date: 2015-01-10 23:51:32
+schematype: TechArticle
 description: Title Tag is a theme feature, first introduced in WordPress version 4.1. We should use add_theme_support() in the functions.php file in order to support title tag.
 categories:
 - wordpress
