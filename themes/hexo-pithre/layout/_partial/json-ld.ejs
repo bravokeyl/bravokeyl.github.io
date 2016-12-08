@@ -11,12 +11,13 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "<%= data.schematype %>",
+    "@type": "BlogPosting",
     "mainEntityOfPage": "<%= data.permalink %>",
     "headline": "<%= data.title %>",
     "datePublished": "<%= data.date.format() %>",
     "dateModified": "<%= data.updated.format() %>",
     "description": "<%= data.description %>",
+    "proficiencyLevel": "Beginner",
     "author": {
       "@type": "Person",
       "name": "bravokeyl",
@@ -50,24 +51,7 @@
   {
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "<%= config.url %>/wordpress",
-        "name": "WordPress",
-        "image": "<%= config.url %>/images/wordpress.png"
-      }
-    },{
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@id": "<%= config.url %>/wordpress/genesis",
-        "name": "Genesis",
-        "image": "<%= config.url %>/images/genesis.png"
-      }
-    }
-    ]
+    "itemListElement": [<%- pithre_cat(page) %>]
   }
 </script>
 <% }%>
