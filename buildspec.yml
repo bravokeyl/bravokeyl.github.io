@@ -16,7 +16,7 @@ phases:
       - echo Present working directory
       - ls
       - echo `date +%d-%m-%y+%H-%M-%s` > public/build.txt
-      - aws s3 sync public/. s3://bravokeyl.com
+      - aws s3 sync public/. s3://bravokeyl.com --metadata-directive "REPLACE" --cache-control "max-age=864000"
   post_build:
     commands:
       - echo Build completed on `date`
