@@ -3,8 +3,8 @@ title: How to install WordPress on AWS Amazon Lightsail within five mintues
 date: 2016-12-02 18:07:19
 schematype: TechArticle
 categories:
-- aws
-- lightsail
+- AWS
+- Amazon Lightsail
 tags:
 - wordpress
 - lightsail

@@ -4,8 +4,8 @@ date: 2015-03-05 00:13:19
 schematype: TechArticle
 description: Jetpack is a very popular plugin for WordPress with many features. In this article I will go through the features of Jetpack and how it helps to boots the functionality of a blog or website.
 categories:
-- wordpress
-- plugins
+- WordPress
+- Plugins
 tags:
 - jetpack
 ---

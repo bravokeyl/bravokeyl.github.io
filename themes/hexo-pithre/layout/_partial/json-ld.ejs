@@ -51,7 +51,17 @@
   {
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [<%- pithre_cat(page) %>]
+    "itemListElement": [<%- pithre_cat(page,0) %>]
+  }
+</script>
+<% }%>
+
+<% if(is_category()) { %>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [<%- pithre_cat(page,1) %>]
   }
 </script>
 <% }%>

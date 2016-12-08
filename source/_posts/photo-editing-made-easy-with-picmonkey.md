@@ -5,7 +5,7 @@ description: While there are plenty of photo editing programs available that wil
 thumbnail: /photo-editing-made-easy-with-picmonkey/picmonkey.png
 schematype: TechArticle
 categories:
-- general
+- General
 tags:
 keywords:
 ---

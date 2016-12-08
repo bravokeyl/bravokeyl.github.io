@@ -5,7 +5,7 @@ schematype: TechArticle
 date: 2013-09-02 16:26:39
 description:
 categories:
-- wordpress
+- WordPress
 tags:
 - installation
 keywords:

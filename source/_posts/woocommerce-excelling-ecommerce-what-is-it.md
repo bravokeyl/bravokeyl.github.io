@@ -5,8 +5,8 @@ description: WooCommerce -an excelling eCommerce - create an online store from t
 thumbnail: /woocommerce-excelling-ecommerce-what-is-it/woocommerce-e.png
 schematype: TechArticle
 categories:
-- wordpress
-- woocommerce
+- WordPress
+- WooCommerce
 tags:
 - woocommerce
 - ecommerce

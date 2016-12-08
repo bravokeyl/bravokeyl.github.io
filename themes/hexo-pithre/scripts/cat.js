@@ -1,9 +1,7 @@
-hexo.extend.helper.register('pithre_cat', function (post) {
-    const capitalize = ([first,...rest]) => first.toUpperCase() + rest.join('').toLowerCase();
+hexo.extend.helper.register('pithre_cat', function (post,cat) {
     var categories = post.categories;
     var catObj = '';
 
-    if (!categories || !categories.length) return "general";
     if (categories) {
       const len = categories.length;
       categories.map(function(cat,i){
@@ -17,6 +15,25 @@ hexo.extend.helper.register('pithre_cat', function (post) {
         item = id + name + image ;
         catObj += '{"@type": "ListItem","position": '+(i+1)+','+item+'}'+ sep;
       });
+    } else {
+      catObj = '{'+
+          '"@type": "ListItem",'+
+          '"position": 1,'+
+          '"@id": "https://bravokeyl.com/general/",'+
+          '"name": "General",'+
+          '"image": "https://bravokeyl.com/images/general.png"'+
+      '}';
+    }
+
+    if(cat){
+      console.log(post.current_url.split('/'));
+      catObj = '{'+
+          '"@type": "ListItem",'+
+          '"position": 1,'+
+          '"@id": "https://bravokeyl.com/'+post.current_url+'",'+
+          '"name": "'+post.category+'",'+
+          '"image": "https://bravokeyl.com/images/'+post.current_url+post.current_url.split('/')[1]+'.png"'+
+      '}';
     }
 
     return catObj;
