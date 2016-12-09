@@ -3,7 +3,7 @@ title: Famous 5 Minute WordPress Installation
 thumbnail:
 schematype: TechArticle
 date: 2013-09-02 16:26:39
-description:
+description: Installing WordPress is very easy, in this arcticle I will go throught he process of installing it in 5 (five) minutes.
 categories:
 - WordPress
 tags:
