@@ -4,8 +4,8 @@
       <header class="article-header">
           <%- partial('post/title', { class_name: 'article-title' }) %>
           <div class="entry-meta post-info">
-            <%= post.author || config.author %> on <%- post.date.format('MMM Do YYYY') %>
-            tagged in <%- partial('post/tag') %>
+            <span><%= post.author || config.author %></span><span> on <%- post.date.format('MMM Do YYYY') %></span>
+            <span>in</span> <%- partial('post/category') %>
           </div>
       </header>
   <% } %>
