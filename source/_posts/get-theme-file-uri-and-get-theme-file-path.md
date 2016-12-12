@@ -2,7 +2,7 @@
 title: get_theme_file_uri and get_theme_file_path
 schematype: TechArticle
 date: 2016-12-06 14:44:31
-description:
+description: WordPress 4.7 Vaughan comes with a handful of helper functions and filters making theme developers to code child theme file inheritance easily.In this article we will explore get_theme_file_uri, get_theme_file_path and it’s parent parts get_parent_theme_file_uri , get_parent_theme_file_path.
 categories:
 - WordPress
 - Core
@@ -20,7 +20,7 @@ The following are enhanced forms of `get_stylesheet_directory_uri`, `get_stylesh
 - [get_parent_theme_file_path()](https://developer.wordpress.org/reference/functions/get_parent_theme_file_path/)
 
 We will explore why these functions are introduced, what they do and where to use them?
-
+<!--- more -->
 When theming, to enqueue scripts or styles we used to do something like this.
 
 **In a child theme**
