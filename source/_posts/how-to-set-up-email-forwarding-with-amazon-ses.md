@@ -8,6 +8,7 @@ categories:
 - SES
 tags:
 keywords: email forwarding, amazon ses, lambda
+video: true
 ---
 In this article you will see how to set up email forwarding with Amazon SES using Amazon S3 and AWS Lambda.
 
