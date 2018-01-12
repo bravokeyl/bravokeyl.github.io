@@ -1,7 +1,6 @@
 menu:
-    WordPress: /wordpress/
-    React: /react/
     AWS: /aws/
+    WordPress: /wordpress/  
 customize:
     theme_color: '#006bde'
     highlight: androidstudio
