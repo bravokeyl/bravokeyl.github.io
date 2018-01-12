@@ -12,7 +12,7 @@ tags:
 - Cortex-M
 keywords:
 ---
-All Cortex-M processors have 4GB addressable memory space(0x0000 0000 to 0xffff ffff) of 32bit addressing. Memory space is unified which means instructions and data share the same address space.
+All Cortex-M processors have 4GB addressable memory space(0x0000 0000 to 0xFFFF FFFF) of 32bit addressing. Memory space is unified which means instructions and data share the same address space.
 
 Memory locations for internal peripherals such as <abbr title="Nested Vector Interrupt Controller">NVIC</abbr>, <abbr title="System Tick timer">SysTick</abbr>, <abbr title="Memory Protection Unit">MPU</abbr> and  debug components inside the processor are fixed.
 
@@ -25,6 +25,7 @@ The 4GB addressable memory space is divided into several memory regions.
 * Devices                                  <code>(region of 1.0GB)</code>
 * System                                   <code>(region of 0.5GB)</code>
 <!--more -->
+
 It is possible to store and execute code from SRAM and RAM regions but the processor is not optimized for such operations and requires an extra clock cycle per instruction for each instruction fetch. So, performance is slightly slower when executing program through the system bus.
 
 **Program execution from Peripherals, Devices, and System memory regions is not allowed.**
