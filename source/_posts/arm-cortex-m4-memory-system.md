@@ -24,7 +24,7 @@ The 4GB addressable memory space is divided into several memory regions.
 * RAM                                      <code>(region of 1.0GB)</code>
 * Devices                                  <code>(region of 1.0GB)</code>
 * System                                   <code>(region of 0.5GB)</code>
-
+<!--more -->
 It is possible to store and execute code from SRAM and RAM regions but the processor is not optimized for such operations and requires an extra clock cycle per instruction for each instruction fetch. So, performance is slightly slower when executing program through the system bus.
 
 **Program execution from Peripherals, Devices, and System memory regions is not allowed.**
